@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>orN.clothes</title>
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+
+</head>
+</head>
+
+<body>
+
+    <div class="container-fluid">
+
+        <!-- navbar -->
+        <div class="container-navbar-ul">
+            <ul class="navbar-ul">
+
+                <li style="text-decoration: none; list-style-type: none;">
+                    <a href="
+                    orN.html" class="orn-navbar"><em><b>orN</b></em></a>
+
+                </li>
+
+                <li class="li-navbar">
+                    <a class="a-navbar" href="navbar/hat.html"><b>HAT</b></a>
+                </li>
+
+                <li class="li-navbar">
+                    <a class="a-navbar" href="navbar/pants.html"><b>PANTS</b></a>
+                </li>
+
+                <li class="li-navbar">
+                    <a class="a-navbar" href="navbar/clothes.html"><b>CLOTHES</b></a>
+                </li>
+
+                <li class="li-navbar">
+                    <a class="a-navbar" href="navbar/shocks.html"><b>SHOCKS</b></a>
+                </li>
+
+                <li class="li-navbar">
+                    <a class="a-navbar" href="navbar/shoes.html"><b>SHOES</b></a>
+                </li>
+
+                <li class="category-navbar">
+                    <div class="dropdown">
+                        <div
+                            style="background-color: #04AA6D; justify-content: right; display: flex; align-items: center;">
+                            <button class="dropbtn">Category</button>
+                            <img src="img/panah-bawah.png" class="panah-bawah">
+                        </div>
+
+                        <div class="dropdown-content">
+                            <a href="navbar/hat.html">Hat</a>
+                            <a href="navbar/pants.html">Pants</a>
+                            <a href="navbar/clothes.html">Clothes</a>
+                            <a href="navbar/shoes.html">Shoes</a>
+                            <a href="navbar/shocks.html">Shocks</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- navbar END -->
+
+
+        <header class="header-timer">
+            <div class="content-timer">
+                <h1>The Question <i><b>orNS</b></i></h1>
+                <h2>coming soon</h2>
+                <div class="countdown">00 : 00 : 00 : 00</div>
+            </div>
+            <br>
+            <p class="pertanyaan"><b>13 x 82 -7 : 5 =</b></p>
+            <br>
+        </header>
+
+    </div>
+
+
+    <div class="data-pengisi">
+        <label>Nama <b>:</b></label>
+        <input type="text" placeholder="Nama Lengkap" class="input-jawaban" id="nama-pengisi">
+        <br><br>
+        <p>Password <b>:</b>
+        </p><input type="password" placeholder="Password" class="input-jawaban" id="password-pengisi">
+        <br><br>
+        <textarea placeholder="JAWABAN BERUPA ANGKA" class="jawaban" id="jawaban-pengisi"></textarea>
+        <input type="button" value="submit" onclick="button()" class="button">
+        <p id="demo"></p>
+
+    </div>
+
+
+    <div class="container-content">
+        <h1 class="title-content"><b><i>Popular</i></b></h1>
+        <div class="cards">
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px"><b>Orn think v2</b></h3>
+                    <p style="margin-top: 3px;">The newest product of Orn think</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>           
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <img class="img-card" src="img/maraton.jpg" alt="Product 2">
+                <div class="card-1">
+                    <h3 style="margin-top: 3px; margin-bottom: 0px">Product 2</h3>
+                    <p style="margin-top: 3px;">Product 2 description...</p>
+                    <div class="butt">
+                        <button class="button_click" id="buttonClick">Detail</button>
+                        <input type="button" value="Buy Product" class="button-content" onclick="buttonContent()">
+                        <img class="img-keranjang" src="img/keranjang.png" onclick="buttonContent()" />
+                    </div>
+                </div>
+            </div>
+
+            <!-- Add more <div class="card"> sections as needed -->
+        </div>
+
+        <span style="width: 80px;">
+            <iframe src="iframe/orn_think_v2.html" frameborder="20"></iframe>
+        </span>
+    </div>
+
+
+    <div class="footer-2">
+
+        <ul class="footer-ul">
+            <li class="li-footer">
+                <a class="a-footer" href="footer/tentangOrn.html"><b>info</b></a>
+            </li>
+            <li class="li-footer">
+                <a class="a-footer" href="footer/kontakOrn.html"><b><i>kontak kami</i></b></a>
+            </li>
+            <li class="li-footer">
+                <a class="a-footer" href="footer/tentangOrn.html"><b><i>tentang kami</i></b></a>
+            </li>
+        </ul>
+
+        <ul class="ul-footer-img">
+            <li class="li-footer-img">
+                <a href="http://instagram.com/dekiwant">
+                    <img src="img/ig.png" class="img-footer" />
+                </a>
+            </li>
+            <li class="li-footer-img">
+                <a href="http://wa.me/6281289641512">
+                    <img src="img/wa.png" class="img-footer" />
+                </a>
+            </li>
+            <li class="li-footer-img">
+                <a href="http://wa.me/6281289641512">
+                    <img src="img/twt.png" class="img-footer" />
+                </a>
+            </li>
+        </ul>
+
+    </div>
+
+    <script src="index.js"></script>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+</body>
+
+</html>
